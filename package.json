@@ -10,9 +10,9 @@
     "sprite": "svg-sprite --config src/sprite-config.json src/svg/*.svg",
     "start:ssr": "npm run build:ssr && npm run serve:ssr",
     "dev:ssr": "ng run toolbox:serve-ssr",
-    "serve:ssr": "node dist/toolbox/server/main.js",
+    "prerender": "ng run toolbox:prerender",
     "build:ssr": "ng build && ng run toolbox:server",
-    "prerender": "ng run toolbox:prerender"
+    "serve:ssr": "node dist/toolbox/server/main.js"
   },
   "private": true,
   "dependencies": {
@@ -36,7 +36,7 @@
     "ngx-red-zoom": "^0.9.0",
     "ngx-toastr": "^14.2.1",
     "photoswipe": "^4.1.3",
-    "rxjs": "~7.4.0",
+    "rxjs": "~6.6.7",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
