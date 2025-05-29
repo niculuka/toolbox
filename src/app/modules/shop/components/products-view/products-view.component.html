@@ -1,0 +1,144 @@
+<div class="products-view" [ngClass]="{'products-view--loading': this.pageService.isLoading$|async}">
+    <div class="products-view__loader"></div>
+
+    <div class="products-view__content">
+        <div class="products-view__options">
+            <div class="view-options" [ngClass]="{
+                'view-options--offcanvas--always': offcanvas === 'always',
+                'view-options--offcanvas--mobile': offcanvas === 'mobile'
+            }">
+                <!-- ------------------------------------------------------------------------------------ FILTER -->
+                <div class="view-options__filters-button">
+                    <button type="button" class="filters-button" (click)="sidebar.open()">
+                        <app-icon class="filters-button__icon" name="filters-16" size="16"></app-icon>
+                        <span class="filters-button__title">Filtre</span>
+                        <span class="filters-button__counter" *ngIf="totalCount > 0">
+                            {{ totalCount }} {{totalCount==1?'produs':'produse'}}
+                        </span>
+                    </button>
+                </div>
+
+                <!-- ------------------------------------------------------------------------------------ SORTER -->
+                <div class="view-options__layout">
+                    <div class="layout-switcher">
+                        <div class="layout-switcher__list">
+
+                            <button title="3 Columns" type="button" class="layout-switcher__button hide-columns"
+                                [ngClass]="{'active-column': columns === 3}" [routerLink]="currentUrl"
+                                [queryParams]="{cols: null}" queryParamsHandling="merge">
+                                <svg width="18" height="16">
+                                    <rect x="0" y="0" width="4" height="16" />
+                                    <rect x="7" y="0" width="4" height="16" />
+                                    <rect x="14" y="0" width="4" height="16" />
+                                </svg>
+                            </button>
+
+                            <button title="4 Columns" type="button" class="layout-switcher__button hide-columns"
+                                [ngClass]="{'active-column': columns === 4}" [routerLink]="currentUrl"
+                                [queryParams]="{cols: 4}" queryParamsHandling="merge">
+                                <svg width="18" height="16">
+                                    <rect x="0" y="0" width="3" height="16" />
+                                    <rect x="5" y="0" width="3" height="16" />
+                                    <rect x="10" y="0" width="3" height="16" />
+                                    <rect x="15" y="0" width="3" height="16" />
+                                </svg>
+                            </button>
+
+                            <button title="5 Columns" type="button" class="layout-switcher__button hide-columns"
+                                [ngClass]="{'active-column': columns === 5}" [routerLink]="currentUrl"
+                                [queryParams]="{cols: 5}" queryParamsHandling="merge">
+                                <svg width="16.5" height="16">
+                                    <rect x="0" y="0" width="2.5" height="16" />
+                                    <rect x="3.5" y="0" width="2.5" height="16" />
+                                    <rect x="7" y="0" width="2.5" height="16" />
+                                    <rect x="10.5" y="0" width="2.5" height="16" />
+                                    <rect x="14" y="0" width="2.5" height="16" />
+                                </svg>
+                            </button>
+
+                            <div class="hide-columns">
+                                &nbsp;&nbsp;
+                            </div>
+
+                            <button title="Grid" type="button" class="layout-switcher__button"
+                                [ngClass]="{'layout-switcher__button--active': layout === 'grid'}"
+                                [routerLink]="currentUrl" [queryParams]="{view: null}" queryParamsHandling="merge">
+                                <app-icon name="layout-grid-16x16" size="16"></app-icon>
+                            </button>
+
+                            <button title="Features" type="button" class="layout-switcher__button"
+                                [ngClass]="{'layout-switcher__button--active': layout === 'features'}"
+                                [routerLink]="currentUrl" [queryParams]="{view: 'features'}"
+                                queryParamsHandling="merge">
+                                <app-icon name="layout-grid-with-details-16x16" size="16"></app-icon>
+                            </button>
+
+                            <button title="List" type="button" class="layout-switcher__button"
+                                [ngClass]="{'layout-switcher__button--active': layout === 'list'}"
+                                [routerLink]="currentUrl" [queryParams]="{view: 'list'}" queryParamsHandling="merge">
+                                <app-icon name="layout-list-16x16" size="16"></app-icon>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="view-options__legend">
+                    <strong> {{ totalCount }} </strong>
+                    <strong> {{totalCount==1?"PRODUS":"PRODUSE"}} </strong>
+                </div>
+
+                <div class="view-options__divider"></div>
+                <div class="view-options__control">
+                    <label for="view-options-sort">Sortează</label>
+                    <div>
+                        <select class="form-control form-control-sm" id="view-options-sort"
+                            (change)="changeSort($event)" [value]="sort">
+                            <option value="default">Inițial</option>
+                            <option value="name_asc">Nume (A-Z)</option>
+                            <option value="name_desc">Nume (Z-A)</option>
+                            <option value="price_asc">Preț ASC</option>
+                            <option value="price_desc">Preț DESC</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="view-options__control">
+                    <label for="view-options-limit">Arată</label>
+                    <div>
+                        <select class="form-control form-control-sm" id="view-options-limit"
+                            (change)="changeLimit($event)" [value]="limit">
+                            <option value="8">8</option>
+                            <option value="12">12</option>
+                            <option value="16">16</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------------------------------------------------------------------------------- PRODUCTS -->
+        <!-- ----------------------------------------------------------------------------------- PRODUCTS -->
+        <!-- ----------------------------------------------------------------------------------- PRODUCTS -->
+        <div class="products-view__list products-list" [attr.data-layout]="layout !== 'list' ? grid : layout"
+            [attr.data-with-features]="layout === 'features' ? 'true' : 'false'">
+            <div class="products-list__body">
+                <div *ngFor="let product of products" class="products-list__item">
+                    <app-product-card [product]="product"></app-product-card>
+                </div>
+            </div>
+        </div>
+
+        <!-- --------------------------------------------------------------------------------- PAGINATION -->
+        <div class="products-view__pagination">
+            <app-pagination [total]="totalCount" [currentUrl]="currentUrl" [perPage]="limit" *ngIf="totalCount > limit">
+            </app-pagination>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------------- NOT FOUND PRODUCTS -->
+    <div *ngIf="!products?.length" class="products-view__empty">
+        <div class="products-view__empty-title">Nici un produs găsit. </div>
+        <div class="products-view__empty-subtitle">Incearcă să resetezi filtrele.</div>
+        <button type="button" class="btn btn-primary btn-sm" [routerLink]="this.root.shop()">Resetează filtre</button>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+<div class="block about-us">
+    <div class="about-us__image"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-10">
+                <div class="about-us__body">
+                    <h1 class="about-us__title">Despre Noi</h1>
+                    <div class="about-us__text typography">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Cras lacus metus, convallis ut leo nec, tincidunt eleifend justo.
+                            Ut felis orci, hendrerit a pulvinar et, gravida ac lorem. Sed vitae molestie sapien,
+                            at sollicitudin tortor.
+                        </p>
+                        <p>
+                            Duis id volutpat libero, id vestibulum purus.Donec euismod accumsan felis,
+                            egestas lobortis velit tempor vitae.
+                            Integer eget velit fermentum, dignissim odio non, bibendum velit.
+                        </p>
+                    </div>
+                    <div class="about-us__team">
+                        <h2 class="about-us__team-title">Echipa Noastră</h2>
+                        <div class="about-us__team-subtitle text-muted">Vrei să lucrezi în echipa noastră?
+                            <br>
+                            <a routerLink="../contact-us">Contactează-ne</a> iar noi vom lua în considerare.
+                        </div>
+                        <div class="about-us__teammates teammates">
+                            <owl-carousel-o [options]="carouselOptions" appOwlPreventClick>
+                                <ng-template carouselSlide>
+                                    <div class="teammates__item teammate">
+                                        <div class="teammate__avatar">
+                                            <img src="assets/images/teammates/teammate-1.jpg" alt="">
+                                        </div>
+                                        <div class="teammate__name">Xulescu George</div>
+                                        <div class="teammate__position text-muted">Director General</div>
+                                    </div>
+                                </ng-template>
+                                <ng-template carouselSlide>
+                                    <div class="teammates__item teammate">
+                                        <div class="teammate__avatar">
+                                            <img src="assets/images/teammates/teammate-2.jpg" alt="">
+                                        </div>
+                                        <div class="teammate__name">Aricioaica Mădălina</div>
+                                        <div class="teammate__position text-muted">Marketing & Publicitate</div>
+                                    </div>
+                                </ng-template>
+                                <ng-template carouselSlide>
+                                    <div class="teammates__item teammate">
+                                        <div class="teammate__avatar">
+                                            <img src="assets/images/teammates/teammate-3.jpg" alt="">
+                                        </div>
+                                        <div class="teammate__name">Anton Beton</div>
+                                        <div class="teammate__position text-muted">Director Financiar</div>
+                                    </div>
+                                </ng-template>
+                            </owl-carousel-o>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

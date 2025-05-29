@@ -1,0 +1,1905 @@
+{
+    "products": [
+        {
+            "id": 21,
+            "name": "Generator de curent electric monofazic pe motorina, Black+Decker BXGND5300E, 5 kW, 12 CP, cu AVR",
+            "slug": "generator-de-curent-electric-monofazic-pe-motorina-black-decker-bxgnd5300e-5-kw-12-cp-cu-avr",
+            "description": "Generatorul Black+Decker BXGND5300E este un generator de curent electric monofazat, util in cazul unei pene de curent sau atunci cand aveti de facut lucrari cu scule electrice intr-o zona fara acces la electricitate. Are o putere maxima de 5300 W si poate fi utilizat pentru asigurarea curentului electric in gospodarie sau pe santier.",
+            "categories": [
+                "scule-de-putere",
+                "generatoare"
+            ],
+            "brand": "black-decker",
+            "price": 9899.99,
+            "oldPrice": 9999.99,
+            "badges": "sale",
+            "rating": 4,
+            "reviews": 22,
+            "availability": "in-stock",
+            "colors": [
+                "orange",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Putere motor",
+                    "values": [
+                        "12 CP"
+                    ]
+                },
+                {
+                    "name": "Tip motor",
+                    "values": [
+                        "Diesel"
+                    ]
+                },
+                {
+                    "name": "Nivel zgomot",
+                    "values": [
+                        "70 dB"
+                    ]
+                },
+                {
+                    "name": "Dimensiuni (L/l/h)",
+                    "values": [
+                        "920 x 520 x 740"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-21-700.jpg",
+                "database/uploads/product-150-700.jpg",
+                "database/uploads/product-149-700.jpg",
+                "database/uploads/product-148-700.jpg",
+                "database/uploads/product-147-700.jpg",
+                "database/uploads/product-148-700.jpg",
+                "database/uploads/product-147-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-21-300.jpg",
+                "database/uploads/product-150-300.jpg",
+                "database/uploads/product-149-300.jpg",
+                "database/uploads/product-149-300.jpg",
+                "database/uploads/product-147-300.jpg",
+                "database/uploads/product-149-300.jpg",
+                "database/uploads/product-147-300.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Polizor unghiular, Bosch Universal Grind 750-125, 750 W, 12000 rpm, 125 mm",
+            "slug": "polizor-unghiular-bosch-universal-grind-750-125-750-w-12000-rpm-125-mm",
+            "description": "Bosch UniversalGrind 750-125 este un polizor unghiular prevazut cu motor eficient de 750 W, ideal pentru slefuirea, taierea si perierea metalalului, pietrei, betonului si a placilor ceramice. Manevrabilitate excelenta pentru a efectua o gama intreaga de lucrari de bricolaj. Include maner suplimentar. Functioneazo discuri de slefuit de 125 mm.",
+            "categories": [
+                "scule-electrice",
+                "polizoare"
+            ],
+            "brand": "bosch",
+            "price": 189.99,
+            "oldPrice": 229.99,
+            "badges": "",
+            "rating": 1,
+            "reviews": 12,
+            "availability": "in-stock",
+            "colors": [
+                "green"
+            ],
+            "attributes": [
+                {
+                    "name": "Viteză",
+                    "values": [
+                        "750 rpm"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": []
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": []
+                },
+                {
+                    "name": "Capacitate",
+                    "values": []
+                }
+            ],
+            "images": [
+                "database/uploads/product-6-700.jpg",
+                "database/uploads/product-121-700.jpg",
+                "database/uploads/product-122-700.jpg",
+                "database/uploads/product-123-700.jpg",
+                "database/uploads/product-124-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-6-300.jpg",
+                "database/uploads/product-121-300.jpg",
+                "database/uploads/product-122-300.jpg",
+                "database/uploads/product-123-300.jpg",
+                "database/uploads/product-124-300.jpg"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Mașină de infiletat Black+Decker cu acumulator 12V",
+            "slug": "masina-de-infiletat-black-decker-cu-acumulator-12V",
+            "description": "Masina de gaurit si insurubat Black+Decker EPC12CA potrivita pentru gaurirea lemnului si a metalului cu mandrina automata de 10 mm, viteza variabila si sistem glisant pentru acumulatori. Are 24 de trepte ale momentului de torsiune permit insurubarea in diverse materiale. Dispune de un acumulator NiCd cu capacitatea de 1.2A, tensiunea de 12V. Necesita timp pentru incarcare de 3h.",
+            "categories": [
+                "scule-electrice",
+                "masini-de-gaurit-si-insurubat"
+            ],
+            "brand": "black-decker",
+            "price": 219.99,
+            "oldPrice": null,
+            "badges": "hot",
+            "rating": 4,
+            "reviews": 4,
+            "availability": "in-stock",
+            "colors": [
+                "orange"
+            ],
+            "attributes": [
+                {
+                    "name": "Viteză",
+                    "values": [
+                        "850 rpm"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "12 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": [
+                        "NiCd"
+                    ]
+                },
+                {
+                    "name": "Capacitate",
+                    "values": [
+                        "3 A"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-1-700.jpg",
+                "database/uploads/product-101-700.jpg",
+                "database/uploads/product-102-700.jpg",
+                "database/uploads/product-103-700.jpg",
+                "database/uploads/product-104-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-1-300.jpg",
+                "database/uploads/product-101-300.jpg",
+                "database/uploads/product-102-300.jpg",
+                "database/uploads/product-103-300.jpg",
+                "database/uploads/product-104-300.jpg"
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Generator de curent electric, monofazic, pe benzina, Stanley SG 3100, 2.6 kW",
+            "slug": "generator-de-curent-electric-monofazic-pe-benzina-stanley-sg-3100-2-6-kw",
+            "description": "Generatorul de curent Stanley SG3100 este o sursa independenta de alimentare cu energie electrica oriunde aveti nevoie (santier, eveniment special, interventie in caz de calamitate).",
+            "categories": [
+                "scule-de-putere",
+                "generatoare"
+            ],
+            "brand": "stanley",
+            "price": 1999.99,
+            "oldPrice": null,
+            "badges": "new",
+            "rating": 3,
+            "reviews": 1,
+            "availability": "out-of-stock",
+            "colors": [
+                "yellow",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Putere",
+                    "values": [
+                        "2.6 KW"
+                    ]
+                },
+                {
+                    "name": "Tip motor",
+                    "values": [
+                        "Benzina"
+                    ]
+                },
+                {
+                    "name": "Putere motor",
+                    "values": [
+                        "7 CP"
+                    ]
+                },
+                {
+                    "name": "Nivel zgomot",
+                    "values": [
+                        "96 dB"
+                    ]
+                },
+                {
+                    "name": "Dimensiuni (L/l/h)",
+                    "values": [
+                        "670 x 480 x 480"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-23-700.jpg",
+                "database/uploads/product-142-700.jpg",
+                "database/uploads/product-141-700.jpg",
+                "database/uploads/product-140-700.jpg",
+                "database/uploads/product-139-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-23-300.jpg",
+                "database/uploads/product-142-300.jpg",
+                "database/uploads/product-141-300.jpg",
+                "database/uploads/product-140-300.jpg",
+                "database/uploads/product-139-300.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Ciocan rotopercutor Makita HR2470, 780 W, cu cablu, 1100 rpm, SDS Plus si cutie inclusa",
+            "slug": "ciocan-rotopercutor-makita-hr2470-780-w-cu-cablu-1100-rpm-sds-plus-si-cutie-inclusa",
+            "description": "Makita HR2470 este un ciocan rotopercutor puternic si versatil, ideal pentru aplicatii profesionale si de bricolaj. Acest model ofera un echilibru optim intre performanta si greutate, facilitand utilizarea pe termen lung. Are trei functii principale: gaurire simpla, gaurire cu percutie si daltuire. Are energia de impact de 2.4 J cu eficienta ridicata in perforarea materialelor dure, cum ar fi betonul sau caramida.",
+            "categories": [
+                "scule-electrice",
+                "ciocane-rotopercutoare"
+            ],
+            "brand": "makita",
+            "price": 599.99,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 4,
+            "reviews": 23,
+            "availability": "out-of-stock",
+            "colors": [
+                "blue"
+            ],
+            "attributes": [
+                {
+                    "name": "Viteză",
+                    "values": [
+                        "1100 rpm"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "220 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": []
+                },
+                {
+                    "name": "Capacitate",
+                    "values": []
+                }
+            ],
+            "images": [
+                "database/uploads/product-5-700.jpg",
+                "database/uploads/product-117-700.jpg",
+                "database/uploads/product-118-700.jpg",
+                "database/uploads/product-119-700.jpg",
+                "database/uploads/product-120-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-5-300.jpg",
+                "database/uploads/product-117-300.jpg",
+                "database/uploads/product-118-300.jpg",
+                "database/uploads/product-119-300.jpg",
+                "database/uploads/product-120-300.jpg"
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Compresor cu piston Stanley Fatmax DV2 400/10/50, 2.2 kW, 3 CP, 50 L",
+            "slug": "compresor-cu-piston-stanley-fatmax-dv2-400-10-50-2-2-kw-3-cp-50-l",
+            "description": "Compresorul Stanley Fatmax  DV2 400/10/50 poate fi folosit la producerea aerului comprimat pentru utilizarea sculelor pneumatice, a dispozitivelor de ridicat si transportat, precum si nenumarate alte utilizari.",
+            "categories": [
+                "scule-de-putere",
+                "compresoare"
+            ],
+            "brand": "stanley",
+            "price": 1699.49,
+            "oldPrice": 1799.49,
+            "badges": "sale",
+            "rating": 4,
+            "reviews": 19,
+            "availability": "in-stock",
+            "colors": [
+                "yellow",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Tip motor",
+                    "values": [
+                        "Electric"
+                    ]
+                },
+                {
+                    "name": "Putere motor",
+                    "values": [
+                        "3 CP"
+                    ]
+                },
+                {
+                    "name": "Nivel zgomot",
+                    "values": [
+                        "87 dB"
+                    ]
+                },
+                {
+                    "name": "Dimensiuni (L/l/h)",
+                    "values": [
+                        "435 x 346 x 378"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-27-700.jpg",
+                "database/uploads/product-126-700.jpg",
+                "database/uploads/product-125-700.jpg",
+                "database/uploads/product-124-700.jpg",
+                "database/uploads/product-123-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-27-300.jpg",
+                "database/uploads/product-126-300.jpg",
+                "database/uploads/product-125-300.jpg",
+                "database/uploads/product-124-300.jpg",
+                "database/uploads/product-123-300.jpg"
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Motor electric monofazat Micul fermier GF-1159, fonta, 2.9 KW",
+            "slug": "motor-electric-monofazat-micul-fermier-gf-1159-fonta-2-9-kw",
+            "description": "Motor electric monofazat Micul Fermier GF-1159 este un motor electric de 2.9 kW cu carcasa din fonta, proiectat pentru fiabilitate si performanta constanta. Este potrivit pentru actionarea unor echipamente solicitante si functioneaza la turatii de 3000 rot/min.",
+            "categories": [
+                "scule-de-putere",
+                "motoare-electrice"
+            ],
+            "brand": "micul-fermier",
+            "price": 490,
+            "oldPrice": null,
+            "badges": "hot",
+            "rating": 5,
+            "reviews": 9,
+            "availability": "in-stock",
+            "colors": [
+                "red"
+            ],
+            "attributes": [
+                {
+                    "name": "Tip motor",
+                    "values": [
+                        "Electric"
+                    ]
+                },
+                {
+                    "name": "Putere motor",
+                    "values": [
+                        "2.9 KW"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "220 V"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-30-700.jpg",
+                "database/uploads/product-114-700.jpg",
+                "database/uploads/product-113-700.jpg",
+                "database/uploads/product-112-700.jpg",
+                "database/uploads/product-111-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-30-300.jpg",
+                "database/uploads/product-114-300.jpg",
+                "database/uploads/product-113-300.jpg",
+                "database/uploads/product-112-300.jpg",
+                "database/uploads/product-111-300.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Masină de găurit și insurubat, DeWalt DCD708N, motor fără perii, 18 V, fără acumulator",
+            "slug": "masina-de-gaurit-si-insurubat-dewalt-dcd708n-motor-fara-perii-18-v-fara-acumulator",
+            "description": "Masina de gaurit si insurubat DeWalt este o scula electrica profesionala, usor de manevrat si utila pentru operatiuni de gaurire si insurubare/desurubare. Aceasta functioneaza cu acumulator DeWalt XR de 18 V, care nu este inclus in pachetul de baza.",
+            "categories": [
+                "scule-electrice",
+                "masini-de-gaurit-si-insurubat"
+            ],
+            "brand": "dewalt",
+            "price": 449.99,
+            "oldPrice": 479.99,
+            "badges": "new",
+            "rating": 4,
+            "reviews": 3,
+            "availability": "in-stock",
+            "colors": [
+                "yellow"
+            ],
+            "attributes": [
+                {
+                    "name": "Viteză",
+                    "values": [
+                        "1550 rpm"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Acumulator"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "18 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": [
+                        "LiIon"
+                    ]
+                },
+                {
+                    "name": "Capacitate",
+                    "values": []
+                }
+            ],
+            "images": [
+                "database/uploads/product-3-700.jpg",
+                "database/uploads/product-109-700.jpg",
+                "database/uploads/product-110-700.jpg",
+                "database/uploads/product-111-700.jpg",
+                "database/uploads/product-112-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-3-300.jpg",
+                "database/uploads/product-109-300.jpg",
+                "database/uploads/product-110-300.jpg",
+                "database/uploads/product-111-300.jpg",
+                "database/uploads/product-112-300.jpg"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Capsator electric Stanley Fatmax FMHT 6-75934 pentru cuie, capse, folie, sipci, tapiterie, etc",
+            "slug": "capsator-electric-stanley-fatmax-fmht-6-75934-pentru-cuie-capse-folie-sipci-tapiterie-etc",
+            "description": "Stanley Fatmax FMHT 6-75934 este un capsator electric universal cu alimentare la priza. Acesta poate fi utilizat foarte usor si este util pentru o gama larga de lucrari. Functioneaza cu 5 tipuri diferite de capse si cuie.",
+            "categories": [
+                "scule-electrice",
+                "capsatoare"
+            ],
+            "brand": "stanley",
+            "price": 410,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 3,
+            "reviews": 41,
+            "availability": "in-stock",
+            "colors": [
+                "black",
+                "yellow"
+            ],
+            "attributes": [
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "220 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": []
+                },
+                {
+                    "name": "Capacitate",
+                    "values": []
+                }
+            ],
+            "images": [
+                "database/uploads/product-14-700.jpg",
+                "database/uploads/product-120-700.jpg",
+                "database/uploads/product-130-700.jpg",
+                "database/uploads/product-140-700.jpg",
+                "database/uploads/product-150-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-14-300.jpg",
+                "database/uploads/product-120-300.jpg",
+                "database/uploads/product-130-300.jpg",
+                "database/uploads/product-140-300.jpg",
+                "database/uploads/product-150-300.jpg"
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Generator de curent electric Black+Decker BXGNP3000E monofazic, pe benzina, 3 kW, 8 CP, cu AVR",
+            "slug": "generator-de-curent-electric-black-decker-bxgnp3000e-monofazic-pe-benzina-3-kw-8-cp-cu-avr",
+            "description": "Black+Decker BXGNP3000E este un generator de curent electric monofazat, util in cazul unei pene de curent, cand doriti sa campati sau cand aveti lucrari de renovare in zone fara curent electric. Acesta poate fi utilizat la aplicatii de intensitate medie ca sursa temporara de energie electrica pentru alimentarea echipamentelor electrice monofazate.",
+            "categories": [
+                "scule-de-putere",
+                "generatoare"
+            ],
+            "brand": "black-decker",
+            "price": 1499.99,
+            "oldPrice": null,
+            "badges": "hot",
+            "rating": 5,
+            "reviews": 12,
+            "availability": "in-stock",
+            "colors": [
+                "orange",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Putere",
+                    "values": [
+                        "3 KW"
+                    ]
+                },
+                {
+                    "name": "Tip motor",
+                    "values": [
+                        "Benzina"
+                    ]
+                },
+                {
+                    "name": "Putere motor",
+                    "values": [
+                        "8 CP"
+                    ]
+                },
+                {
+                    "name": "Nivel zgomot",
+                    "values": [
+                        "96 dB"
+                    ]
+                },
+                {
+                    "name": "Dimensiuni (L/l/h)",
+                    "values": [
+                        "680 x 478 x 466"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-24-700.jpg",
+                "database/uploads/product-138-700.jpg",
+                "database/uploads/product-137-700.jpg",
+                "database/uploads/product-136-700.jpg",
+                "database/uploads/product-135-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-24-300.jpg",
+                "database/uploads/product-138-300.jpg",
+                "database/uploads/product-137-300.jpg",
+                "database/uploads/product-136-300.jpg",
+                "database/uploads/product-135-300.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Mașină de găurit & însurubat Black+Decker BDCDC18B, cu 2 acumulatori, 18 V, 1.5 A",
+            "slug": "masina-de-gaurit-insurubat-black-decker-bdcdc18b-cu-2-acumulatori-18-v-1-5-a",
+            "description": "Masina de gaurit si insurubat pentru gaurire in lemn, plastic si metal precum si pentru aplicatiile de insurubare/desurubare. Functioneaza cu ajutorul acumulatorului LiIon o puteti folosi si in zone fara acces la curent electric.",
+            "categories": [
+                "scule-electrice",
+                "masini-de-gaurit-si-insurubat"
+            ],
+            "brand": "black-decker",
+            "price": 399.99,
+            "oldPrice": null,
+            "badges": "sale",
+            "rating": 5,
+            "reviews": 14,
+            "availability": "in-stock",
+            "colors": [
+                "orange",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Viteză",
+                    "values": [
+                        "750 rpm"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Acumulator"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "18 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": [
+                        "LiIon"
+                    ]
+                },
+                {
+                    "name": "Capacitate",
+                    "values": [
+                        "1.5 A"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-2-700.jpg",
+                "database/uploads/product-105-700.jpg",
+                "database/uploads/product-106-700.jpg",
+                "database/uploads/product-107-700.jpg",
+                "database/uploads/product-108-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-2-300.jpg",
+                "database/uploads/product-105-300.jpg",
+                "database/uploads/product-106-300.jpg",
+                "database/uploads/product-107-300.jpg",
+                "database/uploads/product-108-300.jpg"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Fierastrau circular, Makita HS6601, 1100 W",
+            "slug": "fierastrau-circular-makita-hs6601-1100-w",
+            "description": "Fierastraul circular Makita HS6601 are un motor puternic de 1100 W si este destinat lucrarilor de taiere a tuturor materialelor lemnoase ",
+            "categories": [
+                "scule-electrice",
+                "fierastraie-electrice"
+            ],
+            "brand": "makita",
+            "price": 510,
+            "oldPrice": null,
+            "badges": "new",
+            "rating": 0,
+            "reviews": 0,
+            "availability": "in-stock",
+            "colors": [
+                "blue",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Putere",
+                    "values": [
+                        "1100 W"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "220 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": []
+                },
+                {
+                    "name": "Capacitate",
+                    "values": []
+                }
+            ],
+            "images": [
+                "database/uploads/product-18-700.jpg",
+                "database/uploads/product-123-700.jpg",
+                "database/uploads/product-133-700.jpg",
+                "database/uploads/product-143-700.jpg",
+                "database/uploads/product-104-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-18-300.jpg",
+                "database/uploads/product-123-300.jpg",
+                "database/uploads/product-133-300.jpg",
+                "database/uploads/product-143-300.jpg",
+                "database/uploads/product-104-300.jpg"
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Generator de curent electric, monofazic, pe benzina, cu AVR, DeWalt DXGNP65E, 6 kW, 15 CP",
+            "slug": "generator-de-curent-electric-monofazic-pe-benzina-cu-avr-dewalt-dxgnp65e-6-kw-15-cp",
+            "description": "Generatorul de curent electric monofazic DeWalt DXGNP65E este un generator puternic si fiabil, alimentat cu benzina, ce ofera o sursa portabila de energie electrica. Are o capacitate maxima de 6.5 kW si poate satisface necesitatile de energie in diverse situatii, de la alimentarea unor unelte electrice, la asigurarea iluminarii in timpul unei pene de curent.",
+            "categories": [
+                "scule-de-putere",
+                "generatoare"
+            ],
+            "brand": "dewalt",
+            "price": 4999.99,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 4,
+            "reviews": 22,
+            "availability": "in-stock",
+            "colors": [
+                "yellow",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Putere",
+                    "values": [
+                        "6 KW"
+                    ]
+                },
+                {
+                    "name": "Tip motor",
+                    "values": [
+                        "Benzina"
+                    ]
+                },
+                {
+                    "name": "Putere motor",
+                    "values": [
+                        "15 CP"
+                    ]
+                },
+                {
+                    "name": "Nivel zgomot",
+                    "values": [
+                        "92 dB"
+                    ]
+                },
+                {
+                    "name": "Dimensiuni (L/l/h)",
+                    "values": [
+                        "730 x 640 x 600"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-22-700.jpg",
+                "database/uploads/product-146-700.jpg",
+                "database/uploads/product-145-700.jpg",
+                "database/uploads/product-144-700.jpg",
+                "database/uploads/product-143-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-22-300.jpg",
+                "database/uploads/product-146-300.jpg",
+                "database/uploads/product-145-300.jpg",
+                "database/uploads/product-144-300.jpg",
+                "database/uploads/product-143-300.jpg"
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Motor electric trifazat MA-AL-90L-24-2, 2.2 x 3000, 3.2 CP",
+            "slug": "motor-electric-trifazat-ma-al-90l-24-2-2-2-x-3000-3-2-cp",
+            "description": "Acesta este un motor de uz general si se poate utiliza pentru diverse tipuri de intrbuintari. Are carcasa si scuturile din aliaj de aluminiu, talpi demontabile, cutia de borne sus, nervuri de racire in plan paralel, vertical si orizontal.",
+            "categories": [
+                "scule-de-putere",
+                "motoare-electrice"
+            ],
+            "brand": "electroprecizia",
+            "price": 690,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 5,
+            "reviews": 3,
+            "availability": "in-stock",
+            "colors": [
+                "blue"
+            ],
+            "attributes": [
+                {
+                    "name": "Tip motor",
+                    "values": [
+                        "Electric"
+                    ]
+                },
+                {
+                    "name": "Putere motor",
+                    "values": [
+                        "3.2 CP"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "220 V"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-29-700.jpg",
+                "database/uploads/product-118-700.jpg",
+                "database/uploads/product-117-700.jpg",
+                "database/uploads/product-116-700.jpg",
+                "database/uploads/product-115-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-29-300.jpg",
+                "database/uploads/product-118-300.jpg",
+                "database/uploads/product-117-300.jpg",
+                "database/uploads/product-116-300.jpg",
+                "database/uploads/product-115-300.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Ciocan rotopercutor Bosch PBH 2100 RE, 550 W, 2300 rpm, mandrină SDS Plus, cutie si burghie",
+            "slug": "ciocan-rotopercutor-bosch-pbh-2100-re-550-w-2300-rpm-mandrina-sds-plus-cutie-si-burghie",
+            "description": "Bosch PBH 2100 RE este o masina cu percutie destinata gauririi betonului, caramidei si pietrei, dar si pentru lucrari de daltuire. Functioneaza si pentru gaurirea fara percutie in lemn, metal si placi ceramice.",
+            "categories": [
+                "scule-electrice",
+                "ciocane-rotopercutoare"
+            ],
+            "brand": "bosch",
+            "price": 469.99,
+            "oldPrice": 509.99,
+            "badges": "hot",
+            "rating": 3,
+            "reviews": 13,
+            "availability": "in-stock",
+            "colors": [
+                "green"
+            ],
+            "attributes": [
+                {
+                    "name": "Viteză",
+                    "values": [
+                        "2300 rpm"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "220 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": []
+                },
+                {
+                    "name": "Capacitate",
+                    "values": []
+                }
+            ],
+            "images": [
+                "database/uploads/product-4-700.jpg",
+                "database/uploads/product-113-700.jpg",
+                "database/uploads/product-114-700.jpg",
+                "database/uploads/product-115-700.jpg",
+                "database/uploads/product-116-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-4-300.jpg",
+                "database/uploads/product-113-300.jpg",
+                "database/uploads/product-114-300.jpg",
+                "database/uploads/product-115-300.jpg",
+                "database/uploads/product-116-300.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Polizor de banc Black+Decker BD3215, 150 W, 2950 rpm",
+            "slug": "polizor-de-banc-black-decker-bd3215-150-w-2950-rpm",
+            "description": "Acest polizor este echipat cu un motor de 150 W fiind proiectat pentru polizarea si perierea materialelor din metal si piatra, fara a folosi apa. Poate fi utilizat pentru polizarea profilelor oricarei scule aschietoarea. Este un aparat destinat activitatilor de tip hobby, nefiind recomandat pentru lucrul intens.",
+            "categories": [
+                "scule-electrice",
+                "polizoare"
+            ],
+            "brand": "black-decker",
+            "price": 119.99,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 1,
+            "reviews": 12,
+            "availability": "in-stock",
+            "colors": [
+                "red"
+            ],
+            "attributes": [
+                {
+                    "name": "Viteză",
+                    "values": [
+                        "2950 rpm"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "220 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": []
+                },
+                {
+                    "name": "Capacitate",
+                    "values": []
+                }
+            ],
+            "images": [
+                "database/uploads/product-8-700.jpg",
+                "database/uploads/product-129-700.jpg",
+                "database/uploads/product-130-700.jpg",
+                "database/uploads/product-131-700.jpg",
+                "database/uploads/product-132-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-8-300.jpg",
+                "database/uploads/product-129-300.jpg",
+                "database/uploads/product-130-300.jpg",
+                "database/uploads/product-131-300.jpg",
+                "database/uploads/product-132-300.jpg"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Fierastrau circular, Black+Decker BDCCS18N-XJ, 140 mm, 18 V, fara acumulator",
+            "slug": "fierastrau-circular-black-decker-bdccs18n-xj-140-mm-18-v-fara-acumulator",
+            "description": "Acesta este un fierastrau circular versatil si performant cu o viteza de 3700 rpm, cu ajutorul caruia puteti taia cu usurinta si precizie. Lama este de 140 mm. Acest fierastrau circular este conceput pentru a face fata cu succes diverselor proiecte, fara a fi restrictionat de cabluri sau fire.",
+            "categories": [
+                "scule-electrice",
+                "fierastraie-electrice"
+            ],
+            "brand": "black-decker",
+            "price": 299.99,
+            "oldPrice": 319.99,
+            "badges": "sale",
+            "rating": 4,
+            "reviews": 7,
+            "availability": "in-stock",
+            "colors": [
+                "orange",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Putere",
+                    "values": []
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Acumulator"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "18 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": [
+                        "NiCd"
+                    ]
+                },
+                {
+                    "name": "Capacitate",
+                    "values": [
+                        "3 A"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-19-700.jpg",
+                "database/uploads/product-114-700.jpg",
+                "database/uploads/product-124-700.jpg",
+                "database/uploads/product-134-700.jpg",
+                "database/uploads/product-144-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-19-300.jpg",
+                "database/uploads/product-114-300.jpg",
+                "database/uploads/product-124-300.jpg",
+                "database/uploads/product-134-300.jpg",
+                "database/uploads/product-144-300.jpg"
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Compresor aer cu piston, fara ulei, DeWalt DPC6MRC, 6 litri, 1.5 CP",
+            "slug": "compresor-aer-cu-piston-fara-ulei-dewalt-dpc6mrc-6-litri-1-5-cp",
+            "description": "Compresor aer cu piston, fara ulei, DeWalt DPC6MRC este un produs compact pentru aplicatii diverse, oferind performanta ridicata si un design usor de transportat. Are un motor de 1.5 CP si un rezervor de 6 litri. Functioneaza fara ulei, fiind ideal pentru lucrari de intretinere si reparatii.",
+            "categories": [
+                "scule-de-putere",
+                "compresoare"
+            ],
+            "brand": "dewalt",
+            "price": 1220,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 3,
+            "reviews": 122,
+            "availability": "in-stock",
+            "colors": [
+                "yellow",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Tip motor",
+                    "values": [
+                        "Electric"
+                    ]
+                },
+                {
+                    "name": "Putere motor",
+                    "values": [
+                        "1.5 CP"
+                    ]
+                },
+                {
+                    "name": "Nivel zgomot",
+                    "values": [
+                        "86 dB"
+                    ]
+                },
+                {
+                    "name": "Dimensiuni (L/l/h)",
+                    "values": [
+                        "445 x 330 x 380"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-25-700.jpg",
+                "database/uploads/product-134-700.jpg",
+                "database/uploads/product-133-700.jpg",
+                "database/uploads/product-132-700.jpg",
+                "database/uploads/product-131-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-25-300.jpg",
+                "database/uploads/product-134-300.jpg",
+                "database/uploads/product-133-300.jpg",
+                "database/uploads/product-132-300.jpg",
+                "database/uploads/product-131-300.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Polizor unghiular, DeWalt DCG405N, fara acumulator",
+            "slug": "polizor-unghiular-dewalt-dcg405n-fara-acumulator",
+            "description": "DeWalt DCG405N este un polizor unghiular profesional ce functioneaza cu ajutorul unui acumulator LiIon de 18 V (neinclus). Este o scula electrica compatibila cu discurile de 125 mm si alezajul de 22.23 mmm, fiind utila la lucrarile de polizare si slefuire in spatii restranse. Este ideal pentru polizarea ruginii, eliminarea excesului de sudura, a mortarului dintre caramizi, taierea tevilor de metal, taierea capetelor suruburilor si alte lucrari...",
+            "categories": [
+                "scule-electrice",
+                "polizoare"
+            ],
+            "brand": "dewalt",
+            "price": 719.99,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 4,
+            "reviews": 12,
+            "availability": "in-stock",
+            "colors": [
+                "yellow",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Viteză",
+                    "values": [
+                        "9000 rpm"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Acumulator"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "18 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": [
+                        "LiIon"
+                    ]
+                },
+                {
+                    "name": "Capacitate",
+                    "values": [
+                        "3 A"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-7-700.jpg",
+                "database/uploads/product-125-700.jpg",
+                "database/uploads/product-126-700.jpg",
+                "database/uploads/product-127-700.jpg",
+                "database/uploads/product-128-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-7-300.jpg",
+                "database/uploads/product-125-300.jpg",
+                "database/uploads/product-126-300.jpg",
+                "database/uploads/product-127-300.jpg",
+                "database/uploads/product-128-300.jpg"
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Motor electric monofazat MMF CS 100L, 2.2 x 1500, 3 CP",
+            "slug": "motor-electric-monofazat-mmf-cs-100l-2-2-x-1500-3-cp",
+            "description": "Motorul monofazat MMF CS 100L este un motor de uz general cu o putere de 2.2 kW. Gradul de protectie IP55 se realizeaza prin doua inele de etansare frontale, motorul avand o capacitate de 100 litri.",
+            "categories": [
+                "scule-de-putere",
+                "motoare-electrice"
+            ],
+            "brand": "electroprecizia",
+            "price": 849.99,
+            "oldPrice": null,
+            "badges": "sale",
+            "rating": 4,
+            "reviews": 1,
+            "availability": "in-stock",
+            "colors": [
+                "blue"
+            ],
+            "attributes": [
+                {
+                    "name": "Tip motor",
+                    "values": [
+                        "Electric"
+                    ]
+                },
+                {
+                    "name": "Putere motor",
+                    "values": [
+                        "3 CP"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "220 V"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-28-700.jpg",
+                "database/uploads/product-122-700.jpg",
+                "database/uploads/product-121-700.jpg",
+                "database/uploads/product-120-700.jpg",
+                "database/uploads/product-119-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-28-300.jpg",
+                "database/uploads/product-122-300.jpg",
+                "database/uploads/product-121-300.jpg",
+                "database/uploads/product-120-300.jpg",
+                "database/uploads/product-119-300.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Polizor de banc, Bosch Professional GBG 35-15, 350 W, 3000 rpm",
+            "slug": "polizor-de-banc-bosch-professional-gbg-35-15-350-w-3000-rpm",
+            "description": "Polizorul de banc Bosch GBG 35-15 este robust, proiectat pentru a face fata celor mai exigente cerinte in medii industriale. Cu un motor de 350 W, care functioneaza la 3000 de rotatii pe minut. Este ideal pentru lucrari de degrosare, debavurare si ascutire. Motorul sau cu inductie nu necesita intretinere, asigurand o utilizare eficienta si fara intreruperi, chiar si in conditii de lucru intense.",
+            "categories": [
+                "scule-electrice",
+                "polizoare"
+            ],
+            "brand": "bosch",
+            "price": 899.99,
+            "oldPrice": 999.99,
+            "badges": "hot",
+            "rating": 5,
+            "reviews": 53,
+            "availability": "in-stock",
+            "colors": [
+                "blue"
+            ],
+            "attributes": [
+                {
+                    "name": "Viteză",
+                    "values": [
+                        "3000 rpm"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "220 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": []
+                },
+                {
+                    "name": "Capacitate",
+                    "values": []
+                }
+            ],
+            "images": [
+                "database/uploads/product-9-700.jpg",
+                "database/uploads/product-133-700.jpg",
+                "database/uploads/product-134-700.jpg",
+                "database/uploads/product-135-700.jpg",
+                "database/uploads/product-136-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-9-300.jpg",
+                "database/uploads/product-133-300.jpg",
+                "database/uploads/product-134-300.jpg",
+                "database/uploads/product-135-300.jpg",
+                "database/uploads/product-136-300.jpg"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Fierastrau electric alternativ, Makita DJR183Z, 18 V, fara acumulator",
+            "slug": "fierastrau-electric-alternativ-makita-djr183z-18-v-fara-acumulator",
+            "description": "Makita DJR183Z este un fierastrau alternativ, care functioneaza cu ajutorul unui acumulator de 18 V(nu este inclus in pachet). Acesta este compatibil cu acumulatorii universali Makita care pot fi achizitionati separat. Fierastraul  poate fi utilizat la taierea lemnului, plasticului sau alte materiale usoare.",
+            "categories": [
+                "scule-electrice",
+                "fierastraie-electrice"
+            ],
+            "brand": "makita",
+            "price": 430,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 5,
+            "reviews": 10,
+            "availability": "in-stock",
+            "colors": [
+                "blue",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Putere",
+                    "values": []
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Acumulator"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "18 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": [
+                        "LiIon"
+                    ]
+                },
+                {
+                    "name": "Capacitate",
+                    "values": [
+                        "3.2 A"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-17-700.jpg",
+                "database/uploads/product-132-700.jpg",
+                "database/uploads/product-142-700.jpg",
+                "database/uploads/product-103-700.jpg",
+                "database/uploads/product-113-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-17-300.jpg",
+                "database/uploads/product-132-300.jpg",
+                "database/uploads/product-142-300.jpg",
+                "database/uploads/product-103-300.jpg",
+                "database/uploads/product-113-300.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Pistol de vopsit electric, Bosch EasySpray 18V-100, 18 V, fara acumulator",
+            "slug": "pistol-de-vopsit-electric-bosch-easyspray-18v-100-18-v-fara-acumulator",
+            "description": "Bosch EasySpray 00 este un pistol de vopsit electric, din gama hobby, care va ajuta sa pulverizati fara efort, pete sau picaturi, rapid si uniform, pe suprafete din lemn dar si din metal sau alte materiale. Functioneaza cu ajutorul unui acumulator LiIon de 18 V, care nu ester inclus pachet.",
+            "categories": [
+                "scule-electrice",
+                "pistoale-de-vopsit"
+            ],
+            "brand": "bosch",
+            "price": 399.99,
+            "oldPrice": 429.99,
+            "badges": "sale",
+            "rating": 4,
+            "reviews": 39,
+            "availability": "in-stock",
+            "colors": [
+                "green"
+            ],
+            "attributes": [
+                {
+                    "name": "Putere",
+                    "values": [
+                        "160 W"
+                    ]
+                },
+                {
+                    "name": "Capacitate rezervor",
+                    "values": [
+                        "0.2 L"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Acumulator"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "18 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": [
+                        "NiCd"
+                    ]
+                },
+                {
+                    "name": "Capacitate",
+                    "values": [
+                        "1.2 A"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-11-700.jpg",
+                "database/uploads/product-141-700.jpg",
+                "database/uploads/product-142-700.jpg",
+                "database/uploads/product-143-700.jpg",
+                "database/uploads/product-144-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-11-300.jpg",
+                "database/uploads/product-141-300.jpg",
+                "database/uploads/product-142-300.jpg",
+                "database/uploads/product-143-300.jpg",
+                "database/uploads/product-144-300.jpg"
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Compresor aer cu piston, cu ulei, Black+Decker 205, 1.5 kW, 2 CP, 50 l",
+            "slug": "compresor-aer-cu-piston-cu-ulei-black-decker-205-1-5-kw-2-cp-50-l",
+            "description": "Black+Decker 205 este un compresor fiabil cu un piston, actionat de un motor electric monofazat. Are o constructie robusta si o ungere imbunatatita realizata cu un consum scazut de ulei, ventilatie fortata cu un debit mare si un nivel scazut de zgomot.",
+            "categories": [
+                "scule-de-putere",
+                "compresoare"
+            ],
+            "brand": "black-decker",
+            "price": 899.49,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 4,
+            "reviews": 49,
+            "availability": "in-stock",
+            "colors": [
+                "orange",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Tip motor",
+                    "values": [
+                        "Electric"
+                    ]
+                },
+                {
+                    "name": "Putere motor",
+                    "values": [
+                        "1.5 KW"
+                    ]
+                },
+                {
+                    "name": "Nivel zgomot",
+                    "values": [
+                        "92 dB"
+                    ]
+                },
+                {
+                    "name": "Dimensiuni (L/l/h)",
+                    "values": [
+                        "425 x 316 x 360"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-26-700.jpg",
+                "database/uploads/product-130-700.jpg",
+                "database/uploads/product-129-700.jpg",
+                "database/uploads/product-128-700.jpg",
+                "database/uploads/product-127-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-26-300.jpg",
+                "database/uploads/product-130-300.jpg",
+                "database/uploads/product-129-300.jpg",
+                "database/uploads/product-128-300.jpg",
+                "database/uploads/product-127-300.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Capsator electric, pistol capse, pentru lemn, Hikoki N1804DAW4Z, fara perii, fara acumulator (18V)",
+            "slug": "capsator-electric-pistol-capse-pentru-lemn-hikoki-n1804daw4z-fara-perii-fara-acumulator-18V",
+            "description": "Capsatorul electric Hikoki N1804DAW4Z este solutia ideala pentru fixarea eficienta a materialelor pe suprafete din lemn. Are o capacitate de 120 capse/min fiind alimentat de un motor fara perii. Functioneaza la 18 V si este compatibil cu capse de 3.5 mm latime si lungimi intre 15 si 40 mm.",
+            "categories": [
+                "scule-electrice",
+                "capsatoare"
+            ],
+            "brand": "hikoki",
+            "price": 1999.99,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 5,
+            "reviews": 19,
+            "availability": "in-stock",
+            "colors": [
+                "green"
+            ],
+            "attributes": [
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Acumulator"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "18 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": [
+                        "LiIon"
+                    ]
+                },
+                {
+                    "name": "Capacitate",
+                    "values": [
+                        "4 A"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-12-700.jpg",
+                "database/uploads/product-145-700.jpg",
+                "database/uploads/product-146-700.jpg",
+                "database/uploads/product-147-700.jpg",
+                "database/uploads/product-148-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-12-300.jpg",
+                "database/uploads/product-145-300.jpg",
+                "database/uploads/product-146-300.jpg",
+                "database/uploads/product-147-300.jpg",
+                "database/uploads/product-148-300.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Pistol de vopsit electric, Black+Decker HVLP 200, 400 W",
+            "slug": "pistol-de-vopsit-electric-black-decker-hvlp-200-400-w",
+            "description": "Pistolul de vopsit Black+Decker HVLP 200 este echipat cu un motor mare cu putere de 400 W. Are un recipient pentru substante de pulverizare cu capacitatea de 1.2 l.",
+            "categories": [
+                "scule-electrice",
+                "pistoale-de-vopsit"
+            ],
+            "brand": "black-decker",
+            "price": 279.99,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 4,
+            "reviews": 3,
+            "availability": "out-of-stock",
+            "colors": [
+                "black",
+                "orange"
+            ],
+            "attributes": [
+                {
+                    "name": "Putere",
+                    "values": [
+                        "400 W"
+                    ]
+                },
+                {
+                    "name": "Capacitate rezervor",
+                    "values": [
+                        "1.2 L"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "220 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": []
+                },
+                {
+                    "name": "Capacitate",
+                    "values": []
+                }
+            ],
+            "images": [
+                "database/uploads/product-10-700.jpg",
+                "database/uploads/product-137-700.jpg",
+                "database/uploads/product-138-700.jpg",
+                "database/uploads/product-139-700.jpg",
+                "database/uploads/product-140-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-10-300.jpg",
+                "database/uploads/product-137-300.jpg",
+                "database/uploads/product-138-300.jpg",
+                "database/uploads/product-139-300.jpg",
+                "database/uploads/product-140-300.jpg"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Fierastrau electric vertical, pendular, Hikoki CJ90VST2, 905 W",
+            "slug": "fierastrau-electric-vertical-pendular-hikoki-cj90vst2-905-w",
+            "description": "Fierastraul vertical Hikoki CJ90VST2 este o scula electrica profesionala, echipata cu un motor de puterea de 705 W. Aceasta poate fi utilizat la toate lucrarile de taiere si decupare pe care le aveti de facut,",
+            "categories": [
+                "scule-electrice",
+                "fierastraie-electrice"
+            ],
+            "brand": "hikoki",
+            "price": 399.99,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 3,
+            "reviews": 70,
+            "availability": "out-of-stock",
+            "colors": [
+                "green",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Putere",
+                    "values": [
+                        "905 W"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "220 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": []
+                },
+                {
+                    "name": "Capacitate",
+                    "values": [
+                        "7 A"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-20-700.jpg",
+                "database/uploads/product-105-700.jpg",
+                "database/uploads/product-115-700.jpg",
+                "database/uploads/product-125-700.jpg",
+                "database/uploads/product-135-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-20-300.jpg",
+                "database/uploads/product-105-300.jpg",
+                "database/uploads/product-115-300.jpg",
+                "database/uploads/product-125-300.jpg",
+                "database/uploads/product-135-300.jpg"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Capsator electric Novus J-151, pistol cuie si capse, pentru folie, sipca, tapiterie, etc",
+            "slug": "capsator-electric-novus-j-151-pistol-cuie-si-capse-pentru-folie-sipca-tapiterie-etc",
+            "description": "Capsatorul electric Novus J-151 este un capsator profesional, util la o gama larga de lucrari de interior sau decoartiuni. Utilizeaza atat cuie, cat si cleme de capsat si este eficient la fixarea diverselor materialelor.",
+            "categories": [
+                "scule-electrice",
+                "capsatoare"
+            ],
+            "brand": "novus",
+            "price": 360,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 4,
+            "reviews": 41,
+            "availability": "in-stock",
+            "colors": [
+                "blue"
+            ],
+            "attributes": [
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "220 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": []
+                },
+                {
+                    "name": "Capacitate",
+                    "values": []
+                }
+            ],
+            "images": [
+                "database/uploads/product-13-700.jpg",
+                "database/uploads/product-149-700.jpg",
+                "database/uploads/product-150-700.jpg",
+                "database/uploads/product-101-700.jpg",
+                "database/uploads/product-110-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-13-300.jpg",
+                "database/uploads/product-149-300.jpg",
+                "database/uploads/product-150-300.jpg",
+                "database/uploads/product-101-300.jpg",
+                "database/uploads/product-110-300.jpg"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Fierastrau electric Stanley Fatmax, 18 V, fara acumulator, motor fara perii, lungime sina 15 cm",
+            "slug": "fierastrau-electric-stanley-fatmax-18v-fara-acumulator-motor-fara-perii-lungime-sina-15-cm",
+            "description": "Mini drujba Stanley Fatmax este un instrument profesional, ideal pentru taierea rapida si eficienta a arbustilor si ramurilor mici. Este perfecta pentru amenajarea peisagistica si lucrarile de exterior in deplina siguranta.",
+            "categories": [
+                "scule-electrice",
+                "fierastraie-electrice"
+            ],
+            "brand": "stanley",
+            "price": 520,
+            "oldPrice": null,
+            "badges": "new",
+            "rating": 4,
+            "reviews": 0,
+            "availability": "in-stock",
+            "colors": [
+                "yellow",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Putere",
+                    "values": []
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Acumulator"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "18 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": [
+                        "LiIon"
+                    ]
+                },
+                {
+                    "name": "Capacitate",
+                    "values": [
+                        "2.5 A"
+                    ]
+                }
+            ],
+            "images": [
+                "database/uploads/product-16-700.jpg",
+                "database/uploads/product-141-700.jpg",
+                "database/uploads/product-102-700.jpg",
+                "database/uploads/product-112-700.jpg",
+                "database/uploads/product-122-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-16-300.jpg",
+                "database/uploads/product-141-300.jpg",
+                "database/uploads/product-102-300.jpg",
+                "database/uploads/product-112-300.jpg",
+                "database/uploads/product-122-300.jpg"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Fierastrau electric vertical, pendular, Bosch PST 700E, 500 W",
+            "slug": "fierastrau-electric-vertical-pendular-bosch-pst-700e-500-w",
+            "description": "Fierastraul vertical Bosch PST 700E se remarca prin compactitate, marime, masa scazuta si manevrabilitate. Gratie controlerului pentru frecventa curselor comandat de la comutatorul cu buton, pornirea fierastraului este simpla, iar lucrul adaptat la structura materialului nu reprezinta nicio problema. Fierastraul permite o reducere la minim a vibratiilor cu ajutorul sistemului Bosch Low Vibration si garanteaza lucrul in siguranta.",
+            "categories": [
+                "scule-electrice",
+                "fierastraie-electrice"
+            ],
+            "brand": "bosch",
+            "price": 310,
+            "oldPrice": null,
+            "badges": "",
+            "rating": 1,
+            "reviews": 19,
+            "availability": "in-stock",
+            "colors": [
+                "green",
+                "black"
+            ],
+            "attributes": [
+                {
+                    "name": "Putere",
+                    "values": [
+                        "500 W"
+                    ]
+                },
+                {
+                    "name": "Sursă curent",
+                    "values": [
+                        "Priză"
+                    ]
+                },
+                {
+                    "name": "Voltaj",
+                    "values": [
+                        "220 V"
+                    ]
+                },
+                {
+                    "name": "Tip Acumulator",
+                    "values": []
+                },
+                {
+                    "name": "Capacitate",
+                    "values": []
+                }
+            ],
+            "images": [
+                "database/uploads/product-15-700.jpg",
+                "database/uploads/product-101-700.jpg",
+                "database/uploads/product-111-700.jpg",
+                "database/uploads/product-121-700.jpg",
+                "database/uploads/product-131-700.jpg"
+            ],
+            "small_images": [
+                "database/uploads/product-22-300.jpg",
+                "database/uploads/product-101-300.jpg",
+                "database/uploads/product-111-300.jpg",
+                "database/uploads/product-121-300.jpg",
+                "database/uploads/product-131-300.jpg"
+            ]
+        }
+    ]
+}

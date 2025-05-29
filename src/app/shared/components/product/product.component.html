@@ -1,0 +1,90 @@
+<div class="product product--layout--{{ layout }}" *ngIf="product">
+    <div class="product__content">
+        <!-- .product__gallery -->
+        <div class="product__gallery">
+            <app-product-gallery [productLayout]="layout" [images]="product.images"></app-product-gallery>
+        </div>
+        <!-- .product__gallery / end -->
+        <!-- .product__info -->
+        <div class="product__info">
+            <div class="product__wishlist-compare">
+                <button type="button" class="btn btn-sm btn-light btn-svg-icon" data-toggle="tooltip"
+                    data-placement="right" title="Wishlist" appClick (click)="addToWishlist()"
+                    [ngClass]="{'btn-loading': addingToWishlist}">
+                    <app-icon name="wishlist-16" size="16"></app-icon>
+                </button>
+                <button type="button" class="btn btn-sm btn-light btn-svg-icon" data-toggle="tooltip"
+                    data-placement="right" title="Compare" appClick (click)="addToCompare()"
+                    [ngClass]="{'btn-loading': addingToCompare}">
+                    <app-icon name="compare-16" size="16"></app-icon>
+                </button>
+            </div>
+            <h1 class="product__name">{{ product.name }}</h1>
+            <div class="product__rating">
+                <div class="product__rating-stars">
+                    <app-rating [value]="product.rating"></app-rating>
+                </div>
+                <div class="product__rating-legend">
+                    <a href="" appClick>{{ product.reviews }} Păreri</a>
+                    <span>/</span>
+                    <a href="" appClick>Dă-ți cu părea!</a>
+                </div>
+            </div>
+            <div class="product__description"> {{product.description}} </div>
+            <ul class="product__meta">
+                <li class="product__meta-availability">
+                    <span *ngIf="product.availability === 'in-stock'" class="text-success">În Stoc</span>
+                    <span *ngIf="product.availability === 'out-of-stock'" class="text-danger">Vândut</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="product__sidebar">
+            <div class="product__availability">
+                Availability: <span class="text-success">In Stock</span>
+            </div>
+
+            <div class="product__prices">
+                <ng-container *ngIf="product.oldPrice">
+                    <span class="product__new-price">{{ product.price|currencyFormat }}</span>{{ ' ' }}
+                    <span class="product__old-price">{{ product.oldPrice|currencyFormat }}</span>
+                </ng-container>
+                <ng-container *ngIf="!product.oldPrice">
+                    {{ product.price|currencyFormat }}
+                </ng-container>
+            </div>
+
+            <form class="product__options">
+                <div class="form-group product__option">
+                    <div class="product__actions">
+                        <div class="product__actions-item">
+                            <app-input-number aria-label="Quantity" class="product__quantity" size="lg" [min]="1"
+                                [formControl]="quantity"></app-input-number>
+                        </div>
+                        <div class="product__actions-item product__actions-item--addtocart">
+                            <button type="button" class="btn btn-primary btn-lg"
+                                [ngClass]="{'btn-loading': addingToCart}" appClick (click)="addToCart()">
+                                Adaugă în coș
+                            </button>
+                        </div>
+                        <div class="product__actions-item product__actions-item--wishlist">
+                            <button type="button" class="btn btn-secondary btn-svg-icon btn-lg" data-toggle="tooltip"
+                                title="Favorite" [ngClass]="{'btn-loading': addingToWishlist}" appClick
+                                (click)="addToWishlist()">
+                                <app-icon name="wishlist-16" size="16"></app-icon>
+                            </button>
+                        </div>
+                        <div class="product__actions-item product__actions-item--compare">
+                            <button type="button" class="btn btn-secondary btn-svg-icon btn-lg" data-toggle="tooltip"
+                                title="Compară" [ngClass]="{'btn-loading': addingToCompare}" appClick
+                                (click)="addToCompare()">
+                                <app-icon name="compare-16" size="16"></app-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>

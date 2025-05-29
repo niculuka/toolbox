@@ -1,0 +1,264 @@
+<app-page-header [header]="'Plată'" [breadcrumbs]="[
+    {label: 'Acasă',          url: root.home()},
+    {label: 'Coșul De Cumpărături', url: root.cart()},
+    {label: 'Plată',      url: ''}
+]"></app-page-header>
+
+<div class="checkout block">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-3">
+                <app-alert type="primary" size="lg">Ai deja cont? <a [routerLink]="root.login()">Click aici pentru
+                        conectare</a></app-alert>
+            </div>
+
+            <div class="col-12 col-lg-6 col-xl-7">
+                <div class="card mb-lg-0">
+                    <div class="card-body">
+                        <h3 class="card-title">Detaliile Plații</h3>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="checkout-first-name">Prenume</label>
+                                <input type="text" class="form-control" id="checkout-first-name" placeholder="Prenume">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="checkout-last-name">Nume</label>
+                                <input type="text" class="form-control" id="checkout-last-name" placeholder="Nume">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="checkout-company-name">Nume Companie <span
+                                    class="text-muted">(Opțional)</span></label>
+                            <input type="text" class="form-control" id="checkout-company-name"
+                                placeholder="Nume Companie">
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout-country">Țară</label>
+                            <select id="checkout-country" class="form-control">
+                                <option>Selectează țara...</option>
+                                <option>România</option>
+                                <option>Italy</option>
+                                <option>France</option>
+                                <option>Germany</option>
+                                <option>Australia</option>
+                                <option>UK</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout-street-address">Strada</label>
+                            <input type="text" class="form-control" id="checkout-street-address" placeholder="Strada">
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout-address">Apartment, etaj, etc. <span
+                                    class="text-muted">(Opțional)</span></label>
+                            <input type="text" class="form-control" id="checkout-address">
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout-city">Localitate</label>
+                            <input type="text" class="form-control" id="checkout-city">
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout-state">Județ</label>
+                            <input type="text" class="form-control" id="checkout-state">
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout-postcode">Cod Poștal</label>
+                            <input type="text" class="form-control" id="checkout-postcode">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="checkout-email">Email</label>
+                                <input type="email" class="form-control" id="checkout-email" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="checkout-phone">Telefon</label>
+                                <input type="text" class="form-control" id="checkout-phone" placeholder="Telefon">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-check">
+                                <span class="form-check-input input-check">
+                                    <span class="input-check__body">
+                                        <input class="input-check__input" type="checkbox" id="checkout-create-account">
+                                        <span class="input-check__box"></span>
+                                        <svg class="input-check__icon" width="9px" height="7px">
+                                            <use xlink:href="assets/images/sprite.svg#check-9x7"></use>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <label class="form-check-label" for="checkout-create-account">Crează cont?</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-divider"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">Detalii Transport</h3>
+
+                        <div class="form-group">
+                            <div class="form-check">
+                                <span class="form-check-input input-check">
+                                    <span class="input-check__body">
+                                        <input class="input-check__input" type="checkbox"
+                                            id="checkout-different-address">
+                                        <span class="input-check__box"></span>
+                                        <svg class="input-check__icon" width="9px" height="7px">
+                                            <use xlink:href="assets/images/sprite.svg#check-9x7"></use>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <label class="form-check-label" for="checkout-different-address">Livrare la o altă
+                                    adresă?</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="checkout-comment">Observații <span class="text-muted">(Opțional)</span></label>
+                            <textarea id="checkout-comment" class="form-control" rows="4"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 col-xl-5 mt-4 mt-lg-0">
+                <div class="card mb-0">
+                    <div class="card-body">
+                        <h3 class="card-title">Comanda Ta</h3>
+
+                        <table class="checkout__totals">
+                            <thead class="checkout__totals-header">
+                                <tr>
+                                    <th>Produs</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody class="checkout__totals-products">
+                                <tr *ngFor="let item of cart.items$|async">
+                                    <td>{{ item.product.name }} × {{ item.quantity }}</td>
+                                    <td>{{ item.product.price * item.quantity|currencyFormat }}</td>
+                                </tr>
+                            </tbody>
+                            <tbody *ngIf="(cart.totals$|async)?.length" class="checkout__totals-subtotals">
+                                <tr>
+                                    <th>Subtotal</th>
+                                    <td>{{ cart.subtotal$|async|currencyFormat }}</td>
+                                </tr>
+                                <tr *ngFor="let total of cart.totals$|async">
+                                    <th>{{ total.title }}</th>
+                                    <td>{{ total.price|currencyFormat }}</td>
+                                </tr>
+                            </tbody>
+                            <tfoot class="checkout__totals-footer">
+                                <tr>
+                                    <th>Total</th>
+                                    <td>{{ cart.total$|async|currencyFormat }}</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+
+                        <div class="payment-methods">
+                            <ul class="payment-methods__list">
+                                <li class="payment-methods__item"
+                                    [ngClass]="tranfer.checked?'payment-methods__item--active':''">
+                                    <label class="payment-methods__item-header">
+                                        <span class="payment-methods__item-radio input-radio">
+                                            <span class="input-radio__body">
+                                                <input class="input-radio__input" name="checkout_payment_method"
+                                                    type="radio" #tranfer checked>
+                                                <span class="input-radio__circle"></span>
+                                            </span>
+                                        </span>
+                                        <span class="payment-methods__item-title">Transfer bancar</span>
+                                    </label>
+                                    <div class="payment-methods__item-container">
+                                        <div class="payment-methods__item-description text-muted">
+                                            Faceți plata direct în contul bancar. Vă rog să folosiți numărul de comadă
+                                            ca referință de plată.
+                                            Comanda nu va fi livrată până nu avem confirmarea plații.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="payment-methods__item"
+                                    [ngClass]="cec.checked?'payment-methods__item--active':''">
+                                    <label class="payment-methods__item-header">
+                                        <span class="payment-methods__item-radio input-radio">
+                                            <span class="input-radio__body">
+                                                <input class="input-radio__input" name="checkout_payment_method"
+                                                    type="radio" #cec>
+                                                <span class="input-radio__circle"></span>
+                                            </span>
+                                        </span>
+                                        <span class="payment-methods__item-title">Plata CEC</span>
+                                    </label>
+                                    <div class="payment-methods__item-container">
+                                        <div class="payment-methods__item-description text-muted">
+                                            Vă rugăm să notați pe cec toate detaliile legate de comanda dvs.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="payment-methods__item"
+                                    [ngClass]="courier.checked?'payment-methods__item--active':''">
+                                    <label class="payment-methods__item-header">
+                                        <span class="payment-methods__item-radio input-radio">
+                                            <span class="input-radio__body">
+                                                <input class="input-radio__input" name="checkout_payment_method"
+                                                    type="radio" #courier>
+                                                <span class="input-radio__circle"></span>
+                                            </span>
+                                        </span>
+                                        <span class="payment-methods__item-title">Plată la Curier</span>
+                                    </label>
+                                    <div class="payment-methods__item-container">
+                                        <div class="payment-methods__item-description text-muted">
+                                            Plată cu bani la sosirea coletului dvs.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="payment-methods__item"
+                                    [ngClass]="paypal.checked?'payment-methods__item--active':''">
+                                    <label class="payment-methods__item-header">
+                                        <span class="payment-methods__item-radio input-radio">
+                                            <span class="input-radio__body">
+                                                <input class="input-radio__input" name="checkout_payment_method"
+                                                    type="radio" #paypal>
+                                                <span class="input-radio__circle"></span>
+                                            </span>
+                                        </span>
+                                        <span class="payment-methods__item-title">PayPal</span>
+                                    </label>
+                                    <div class="payment-methods__item-container">
+                                        <div class="payment-methods__item-description text-muted">
+                                            Plată cu PayPal; Puteți plati direct in contul de PayPal.
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="checkout__agree form-group">
+                            <div class="form-check">
+                                <span class="form-check-input input-check">
+                                    <span class="input-check__body">
+                                        <input class="input-check__input" type="checkbox" id="checkout-terms">
+                                        <span class="input-check__box"></span>
+                                        <svg class="input-check__icon" width="9px" height="7px">
+                                            <use xlink:href="assets/images/sprite.svg#check-9x7"></use>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <label class="form-check-label" for="checkout-terms">
+                                    Sunt de acord cu condițiile magazinului online <a target="_blank"
+                                        [routerLink]="root.terms()">termeni și condiții</a>*
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-xl btn-block">Plasează comanda</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

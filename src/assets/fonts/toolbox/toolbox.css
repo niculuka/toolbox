@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'toolbox';
+    src:
+            url('toolbox.ttf') format('truetype'),
+            url('toolbox.woff') format('woff'),
+            url('toolbox.svg#toolbox') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

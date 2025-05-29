@@ -1,0 +1,104 @@
+<div class="product-tabs" [ngClass]="{'product-tabs--layout--sidebar': withSidebar}">
+    <div class="product-tabs__list">
+        <a href="#tab-description" class="product-tabs__item"
+            [ngClass]="{'product-tabs__item--active': tab === 'description'}"
+            (click)="$event.preventDefault(); tab = 'description'">Descriere</a>
+
+        <a href="#tab-specification" class="product-tabs__item"
+            [ngClass]="{'product-tabs__item--active': tab === 'specification'}"
+            (click)="$event.preventDefault(); tab = 'specification'">Specificații</a>
+
+        <a href="#tab-reviews" class="product-tabs__item" [ngClass]="{'product-tabs__item--active': tab === 'reviews'}"
+            (click)="$event.preventDefault(); tab = 'reviews'">Păreri</a>
+    </div>
+    <div class="product-tabs__content">
+
+        <div class="product-tabs__pane" id="tab-description"
+            [ngClass]="{'product-tabs__pane--active': tab === 'description'}">
+            <div class="typography">
+
+                <h3>Descriere Completă</h3>
+                <p> 1. {{product.description}} </p>
+                <p> 2. {{product.description}} </p>
+                <p> 3. {{product.description}} </p>
+            </div>
+        </div>
+
+        <div class="product-tabs__pane" id="tab-specification"
+            [ngClass]="{'product-tabs__pane--active': tab === 'specification'}">
+            <div class="spec">
+                <h3 class="spec__header">Specificații Produs</h3>
+                <div class="spec__section">
+                    <h4 class="spec__section-title">General</h4>
+                    <div  *ngFor="let attribute of product.attributes" class="spec__row">
+                        <div class="spec__name">{{ attribute.name }}</div>
+                        <div class="spec__value">{{ attribute.values[0] }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-tabs__pane" id="tab-reviews" [ngClass]="{'product-tabs__pane--active': tab === 'reviews'}">
+            <div class="reviews-view">
+                <div class="reviews-view__list">
+                    <h3 class="reviews-view__header">Părerile Cilenților</h3>
+
+                    <div class="reviews-list">
+                        <ol class="reviews-list__content">
+                            <li *ngFor="let review of reviews" class="reviews-list__item">
+                                <div class="review">
+                                    <div class="review__avatar"><img [src]="review.avatar" alt=""></div>
+                                    <div class="review__content">
+                                        <div class="review__author">{{ review.author }}</div>
+                                        <div class="review__rating">
+                                            <app-rating [value]="review.rating"></app-rating>
+                                        </div>
+                                        <div class="review__text">{{ review.text }}</div>
+                                        <div class="review__date">{{ review.date }}</div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <form class="reviews-view__form">
+                    <h3 class="reviews-view__header">Scrie o părere</h3>
+                    <div class="row">
+                        <div class="col-12 col-lg-9 col-xl-8">
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="review-stars">Număr de Stele</label>
+                                    <select id="review-stars" class="form-control">
+                                        <option>5 Stele</option>
+                                        <option>4 Stele</option>
+                                        <option>3 Stele</option>
+                                        <option>2 Stele</option>
+                                        <option>1 Stele</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="review-author">Numele Tău</label>
+                                    <input type="text" class="form-control" id="review-author" placeholder="Numele Tău">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="review-email">Adresa de Email</label>
+                                    <input type="text" class="form-control" id="review-email"
+                                        placeholder="Adresa de Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="review-text">Parerea Ta</label>
+                                <textarea class="form-control" id="review-text" rows="6"></textarea>
+                            </div>
+                            <div class="form-group mb-0">
+                                <button type="submit" class="btn btn-primary btn-lg">Postează</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
