@@ -22,7 +22,7 @@
     width: 255px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     color: $header-logo-color;
 
     @include direction {
