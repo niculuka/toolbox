@@ -8,11 +8,11 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "sprite": "svg-sprite --config src/sprite-config.json src/svg/*.svg",
+    "dev:ssr": "ng run toolbox:serve-ssr",    
+    "build:ssr": "ng build && ng run toolbox:server",    
+    "serve:ssr": "node dist/toolbox/server/main.js",
     "start:ssr": "npm run build:ssr && npm run serve:ssr",
-    "dev:ssr": "ng run toolbox:serve-ssr",
-    "prerender": "ng run toolbox:prerender",
-    "build:ssr": "ng build && ng run toolbox:server",
-    "serve:ssr": "node dist/toolbox/server/main.js"
+    "prerender": "ng run toolbox:prerender"
   },
   "private": true,
   "dependencies": {
