@@ -10,6 +10,6 @@ export class PageTrackOrderComponent {
     constructor(private toastr: ToastrService) { }
 
     tracking() {
-        this.toastr.success("Pentru detalii, va trebui să luați legătura cu curierul.", "Comada dumneavoastră se află în custodia curierului.")
+        this.toastr.success("", "Comada dumneavoastră se află în custodia curierului.")
     }
 }
