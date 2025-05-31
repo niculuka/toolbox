@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { MyProduct, Product } from '../../../../shared/interfaces/product';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ShopService } from '../../../../shared/api/shop.service';
@@ -15,7 +15,7 @@ class Category { name: string = ""; slug: string = ""; }
     templateUrl: './page-product.component.html',
     styleUrls: ['./page-product.component.scss']
 })
-export class PageProductComponent implements OnInit {
+export class PageProductComponent implements OnInit, OnDestroy {
     relatedProducts: Product[] = [];
 
     product: MyProduct = new MyProduct();
@@ -26,6 +26,7 @@ export class PageProductComponent implements OnInit {
     loaded = false;
 
     breadcrumbs: Link[] = [];
+    private sub0: any;
 
     constructor(
         private root: RootService,
@@ -36,7 +37,7 @@ export class PageProductComponent implements OnInit {
     ) { }
 
     ngOnInit(): void {
-        this.route.params.subscribe(params => {
+        this.sub0 = this.route.params.subscribe(params => {
             this.loaded = false;
             this.productService.fetchProducts().subscribe(result => {
                 let products: any = result.products;
@@ -89,5 +90,9 @@ export class PageProductComponent implements OnInit {
                 // if (this.product == null) this.router.navigate(['/site/not-found']);
             });
         });
+    }
+
+    ngOnDestroy(): void {
+        this.sub0?.unsubscribe();
     }
 }

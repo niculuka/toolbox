@@ -39,12 +39,13 @@ export class PageHomeOneComponent implements OnInit, OnDestroy {
 
     featuredProdsIds = [1, 7, 10, 13, 18, 22, 24];
     featuredProds: any = [];
+    private sub0: any;
 
     constructor(
         private shop: ShopService,
         private productService: ProductService
     ) {
-        this.productService.fetchProducts().subscribe(result => {
+        this.sub0 = this.productService.fetchProducts().subscribe(result => {
             let prods: any = [];
             for (let prod of result.products) {
                 for (let id of this.featuredProdsIds) {
@@ -134,6 +135,7 @@ export class PageHomeOneComponent implements OnInit, OnDestroy {
     ngOnDestroy(): void {
         this.destroy$.next();
         this.destroy$.complete();
+        this.sub0?.unsubscribe();
     }
 
     groupChange(carousel: ProductsCarouselData, group: BlockHeaderGroup): void {
